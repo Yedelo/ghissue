@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${version}",
+  "name": "${modName}",
+  "description": "${modDescription}",
+  "authors": [
+    "Yedel"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/${modId}",
+    "issues": "https://github.com/Yedelo/${modName}/issues",
+    "sources": "https://github.com/Yedelo/${modName}"
+  },
+  "license": "${license}",
+  "icon": "${modIcon}",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "at.yedel.${modId}.${modName}"
+    ]
+  },
+  "depends": {
+    "java": "${java}",
+    "fabricloader": "${fabricLoader}",
+    "minecraft": "${minecraft}",
+    "oneconfigv1": "${oneconfig}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.github_releases": "https://github.com/Yedelo/${modName}/releases/",
+        "modmenu.modrinth": "https://modrinth.com/mod/${modId}"
+      }
+    }
+  }
+}
