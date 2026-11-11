@@ -17,14 +17,17 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "at.yedel.${modId}.${modName}"
+      {
+        "adapter": "kotlin",
+        "value": "at.yedel.ghissue.Ghissue"
+      }
     ]
   },
   "depends": {
     "java": "${java}",
     "fabricloader": "${fabricLoader}",
-    "minecraft": "${minecraft}",
-    "oneconfigv1": "${oneconfig}"
+    "oneconfigv1": "${oneconfig}",
+    "fabric-language-kotlin": "*"
   },
   "custom": {
     "modmenu": {

@@ -1,17 +1,2 @@
 versions.fabricloader = "0.19.3"
-versions.oneconfig = "1.1.15"
-
-["26.1-fabric"]
-versioning = "range"
-mc.max = "26.3"
-versions.fabricapi = "0.155.3+26.1.2"
-versions.modmenu = "18.0.0"
-versions.yacl = "3.9.4"
-
-["1.8.9-fabric"]
-versioning = "single"
-# tuff
-versions.feather = 1
-versions.osl = "0.20.3"
-versions.oslcore = "0.9.0+mc14w27a-mc1.14.4"
-versions.oslentrypoints = "0.6.1+mc13w16a-mc1.14.4"
+versions.oneconfig = "1.6.0"
